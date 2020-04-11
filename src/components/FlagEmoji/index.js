@@ -11,5 +11,5 @@ export default function FlagEmoji({name}) {
       name = 'logo';
   }
 
-  return <img src={`../static/img/${name}.svg`} className={styles.emoji} alt={name} />;
+  return <img src={`/img/${name}.svg`} className={styles.emoji} alt={name} />;
 }

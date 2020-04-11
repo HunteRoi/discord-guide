@@ -18,7 +18,7 @@ Tu l'as sans doute remarqué quand tu postes un lien sur Discord, ou alors quand
 </RocketList>
 
 ## Une intégration, c'est quoi?
-> Du verbe anglais "to embed" qui signifie "intégrer", un embed est une intégration visuelle sur un site web, une application, un IRC, etc. Vous l'utilisez dans la vie de tous les jours quand, par exemple, vous partagez un lien YouTube ou une page du journal de votre école sur Twitter, Facebook ou que sais-je!
+> Du verbe anglais "to embed" qui signifie "intégrer", un embed est une intégration visuelle sur un site web, une application, un IRC, etc. Tu l'utilises dans la vie de tous les jours quand, par exemple, tu partages un lien YouTube ou une page du journal de votre école sur Twitter, Facebook ou que sais-je!
 
 Une intégration (un embed), c'est également une entité générée par Discord et qui permet de mettre en avant des ressources de manière plus interactive. En effet, lorsque tu postes un lien YouTube par exemple, une intégration est automatiquement créé afin de pouvoir jouer la vidéo YouTube *depuis l'application Discord* (sans ouvrir ton navigateur). Elle est _intégrée_ à Discord. Voici la page de la documentation officielle : https://discordapp.com/developers/docs/resources/channel#embed-object.
 
@@ -109,6 +109,6 @@ Si tu as ton code couleur en hexadécimal, je te conseille d'utiliser `parseInt`
 > 10050386
 ```
 
-Vous pouvez également utiliser [Blargbot](https://blargbot.xyz) et [son système de sous-tag](https://blargbot.xyz/tags#base) afin de transformer votre nombre dans la base de votre choix :
+Tu peux également utiliser [Blargbot](https://blargbot.xyz) et [son système de sous-tag](https://blargbot.xyz/tags#base) afin de transformer votre nombre dans la base de votre choix :
 <Image src="/img/base-math.png" alt="Blargbot's {base} subtag" />
 :::

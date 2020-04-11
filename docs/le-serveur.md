@@ -69,7 +69,7 @@ Tous les blocs sont basés sur un même modèle :
   </li>
 </RocketList>
 
-Tous les autres canaux sont donc uniques à chaque bloc (vous ne trouverez pas deux canaux **#oed**, en somme).
+Tous les autres canaux sont donc uniques à chaque bloc (tu ne trouveras pas deux canaux **#oed**, en somme).
 
 :::note
 Les étudiants d'un bloc n'ont accès qu'aux canaux de leur bloc alors que les professeurs voient directement tous les blocs et ont accès à tous les canaux de cours de ceux-ci! Voici ce que voit un prof en ouvrant la catégorie "Bloc 1" :

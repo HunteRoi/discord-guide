@@ -8,12 +8,12 @@ import Image from '../src/components/Image';
 Le générique masculin est utilisé sans aucune discrimination et uniquement dans le but d'alléger le texte.
 :::
 
-Outre son incroyable capacité de formatage de texte empruntée à Markdown, l'une des caractéristiques très utile avec Discord, c'est que tu peux créer un hyper-lien vers pratiquement n'importe quoi. Étroitement liée avec la page de documentation sur les [identifiants](les-identifiants), la lecture de ce chapitre te permettra de c0omprendre comment fonctionne une petite partie de l'application. 
+Outre son incroyable capacité de formatage de texte empruntée à Markdown, l'une des caractéristiques très utile avec Discord, c'est que tu peux créer un hyper-lien vers pratiquement n'importe quoi. Étroitement liée avec la page de documentation sur les [identifiants](les-identifiants), la lecture de ce chapitre te permettra de comprendre comment fonctionne une petite partie de l'application. 
 
 ## Les canaux
 Imagine que tu veux rediriger quelqu'un vers un canal spécifique mais que le serveur où tu te trouves comporte un énorme nombre de canaux. Pas facile de retrouver le canal sur base d'un simple nom. Discord a mis en place un système d'hyper-lien qui te permet, quand tu notes un message, de transformer le nom d'un canal en un hyper-lien.
 
-Rien de plus simple : il suffit d'écrire `#` suivi du nom du canal. Vous pouvez même choisir un canal parmi ceux proposés dans la liste. 
+Rien de plus simple : il suffit d'écrire `#` suivi du nom du canal. Tu peux même choisir un canal parmi ceux proposés dans la liste. 
 
 <!--
 <video autoPlay loop>
@@ -43,4 +43,4 @@ Pour créer un hyper-lien vers un utilisateur ou même un rôle, c'est une synta
 Un hyper-lien vers un utilisateur ou un rôle se nomme "une mention" et envoie une notification à la ou aux personnes concernées. Utilise cela avec parcimonie!
 :::
 
-Discord possède également 2 rôles spéciaux : "here" et "everyone". Le premier permet de mentionner _tous les utilisateurs **en ligne**_ et ayant accès au canal écrit dans lequel vous l'envoyez. Le second permet de mentionner _tous les utilisateurs_ qui ont accès au canal écrit.
+Discord possède également 2 rôles spéciaux : "here" et "everyone". Le premier permet de mentionner _tous les utilisateurs **en ligne**_ et ayant accès au canal écrit dans lequel tu l'envoies. Le second permet de mentionner _tous les utilisateurs_ qui ont accès au canal écrit.

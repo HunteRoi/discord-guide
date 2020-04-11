@@ -19,7 +19,9 @@ export default function Home() {
     >
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className='container'>
-          <h1 className='hero__title'>{siteConfig.title}</h1>
+          <h1 className='hero__title'>
+            Discord<span style={{color: 'black'}}>G</span>uide
+          </h1>
           <p className='hero__subtitle'>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
@@ -63,7 +65,9 @@ export default function Home() {
                 <a href='https://blog.discordapp.com/'>Discord Blog</a>
               </li>
               <li>
-                <a href='https://support.discordapp.com/hc/fr'>Support Discord</a>
+                <a href='https://support.discordapp.com/hc/fr'>
+                  Support Discord
+                </a>
               </li>
             </ul>
           </div>

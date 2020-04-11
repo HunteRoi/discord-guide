@@ -1,9 +1,9 @@
 module.exports = {
   title: 'DiscordGuide',
-  tagline: 'Apprends à utiliser Discord en lisant plein d\'anecdotes et de blabla à son propos',
+  tagline: 'Apprends à utiliser Discord à travers mon expérience',
   url: 'http://discord.tinaeldevresse.eu',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.ico',
   organizationName: 'hunteroi',
   projectName: 'discord-guide',
   themes: ['@docusaurus/theme-classic'/*, '@docusaurus/theme-live-codeblock'*/],
@@ -16,7 +16,7 @@ module.exports = {
       title: 'DiscordGuide',
       logo: {
         alt: 'DiscordGuide Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       links: [
         { to: 'docs/se-connecter-et-déconnecter', label: 'Docs', position: 'left' },

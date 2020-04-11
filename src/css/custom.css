@@ -1,0 +1,63 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(122, 101, 76);
+  --ifm-color-primary-dark: rgb(119, 103, 82);
+  --ifm-color-primary-darker: rgb(95, 77, 54);
+  --ifm-color-primary-darkest: rgb(97, 75, 57);
+  --ifm-color-primary-light: rgb(133, 107, 75);
+  --ifm-color-primary-lighter: rgb(136, 126, 115);
+  --ifm-color-primary-lightest: rgb(190, 185, 179);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 300;
+  src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff) format("woff")
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 400;
+  src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff")
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 500;
+  src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff")
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 600;
+  src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff) format("woff")
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 700;
+  src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff) format("woff")
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.rocketList {
+  list-style: outside url('/img/rocket.svg');
+}
+
+ul.rocketList li:not(:last-child) {
+  margin-bottom: 2em;
+}

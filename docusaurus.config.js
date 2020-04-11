@@ -54,7 +54,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/hunteroi/discord-guide/edit/master/',
+            'https://github.com/hunteroi/discord-guide/blob/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

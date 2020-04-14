@@ -11,6 +11,16 @@
   overflow: hidden;
 }
 
+.githubStarWrapper {
+  display: flex;
+}
+
+.githubStarButton {
+  border: none;
+  margin-left: 24px;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 1rem;
@@ -36,4 +46,3 @@
   padding-bottom: 2rem;
   width: 100%;
 }
-

@@ -40,7 +40,7 @@ export default function DiscordCard({ inviteCode, introText, joinText }) {
       .catch(console.warn);
   });
 
-  return loading ? <h1>Chargement en cours...</h1>
+  return loading ? <><h1>Chargement en cours...</h1><br /></>
     : (
     <div className={styles.discordInvite}>
       {introText && <h5 className={styles.introText} className={classnames(styles.noselect)}>{introText}</h5> }

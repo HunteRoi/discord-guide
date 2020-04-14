@@ -9,20 +9,21 @@ import styles from './styles.module.css';
 
 export default function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig: { customFields = {}, tagline } = {} } = context;
   const joinText = "Rejoindre";
 
   return (
     <Layout
-      title='Accueil'
-      description='DiscordGuide, pour aider à mieux comprendre Discord'
+      permalink='/'
+      title={tagline}
+      description={customFields.description}
     >
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className='container'>
           <h1 className='hero__title'>
-            Discord<span style={{color: 'black'}}>G</span>uide
+            Discord<span style={{ color: 'black' }}>G</span>uide
           </h1>
-          <p className='hero__subtitle'>{siteConfig.tagline}</p>
+          <p className='hero__subtitle'>{tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -33,6 +34,15 @@ export default function Home() {
             >
               C'est parti !
             </Link>
+            <span className={styles.githubStarWrapper}>
+              <iframe
+                className={styles.githubStarButton}
+                src='https://ghbtns.com/github-btn.html?user=hunteroi&amp;repo=discord-guide&amp;type=star&amp;count=true&amp;size=large'
+                width={160}
+                height={30}
+                title='GitHub Stars'
+              />
+            </span>
           </div>
         </div>
       </header>

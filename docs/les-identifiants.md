@@ -18,6 +18,7 @@ Ces trois prochaines pages prendront en compte le fait que cette manipulation a 
 :::
 
 Discord est construit autour de plusieurs entités :
+
 <RocketList>
   <li>les utilisateurs</li>
   <li>les messages</li>

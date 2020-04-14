@@ -8,10 +8,15 @@ Vivement demandé par la communauté (et surtout les développeurs) il fut un te
 Je vais pas m'embêter à t'expliquer tout sur le webhook, Discord a très bien fait ça. Lis donc [l'article à ce sujet](https://support.discordapp.com/hc/fr/articles/228383668) !
 
 ## Etape 1 : mettre en place le webhook
+
 <Image src="https://cdn.discordapp.com/attachments/497053799534559242/497097262070104065/webhook-etape1.gif" alt="étape 1" />
 
 ## Etape 2 : comprendre ce qu'est un webhook
 Un webhook, c'est comme un tube pneumatique pour faire passer des messages d'un endroit à l'autre. Le premier endroit, ce serait l'**application que tu utilises** pour _envoyer_ le webhook. L'endroit de destination, c'est un **canal écrit Discord**. Le message, bah c'est le **contenu du webhook** (un message texte, [une intégration](les-embeds), ...). Et le tube pneumatique, c'est l'**API de Discord**!
+
+<div style={{ width: "100%", height: "0", paddingBottom: "43%", position: "relative" }}>
+  <iframe src="https://giphy.com/embed/2qhGWUYtiRKms" width="100%" height="100%" style={{ position: "absolute" }} frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</div>
 
 Pour utiliser un webhook, tu as besoin de deux choses : 
 
@@ -35,4 +40,5 @@ L'API de Discord, majoritairement développée en Python, transmet des données.
 J'utilise [Insomnia](https://insomnia.rest/) mais il en existe d'autres, comme [Postman](https://www.getpostman.com) par exemple.
 
 Ci-après un tutoriel rapide avec Insomnia dans lequel je réalise une requête HTTP de type "post". En effet, j'envoie l'objet JSON sur l'URL du webhook, ce dernier gérant le reste (comprendre l'objet reçu, le traduire et ensuite l'afficher dans le canal sous forme d'un message lisible).
+
 <Image src="https://cdn.discordapp.com/attachments/497053799534559242/497097572704321546/webhook-etape3bgif.gif" alt="étape 3" />

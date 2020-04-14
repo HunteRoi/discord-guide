@@ -27,6 +27,7 @@ Tu trouveras ci-dessous un récapitulatif sous forme de tableau des différents 
 | Bloc de code avec coloration syntaxique 	| \`\`\`&lt;langage&gt; 	| <Image src="/img/colored-code-block.png" alt="Code Block with Semantic Hightlight" />	| <Image src="/img/colored-code-block-result.png" alt="Code Block with Semantic Hightlight" />	|
 
 Tu peux trouver une liste complète des langages supportés par Discord sur [highlightjs.org](https://highlightjs.org/static/demo/). Personnellement, j'utilise souvent ces deux "codes de langage" dans mes blocs de code :
+
 <RocketList>
   <li><Code>csharp</Code> pour <span>C#</span></li>
   <li><Code>js</Code> ou <Code>javascript</Code> pour <span>JavaScript</span></li>

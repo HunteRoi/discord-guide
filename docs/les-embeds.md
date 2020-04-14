@@ -29,16 +29,20 @@ Comme toute entité, une intégration est également soumise à des limites. Ces
 :::
 
 Outre les limitations de contenu, Discord bloque l'utilisation de certains champs.
+
 <Image src="https://images-ext-1.discordapp.net/external/7PBH4eRp1AItUJtYBvtDIbhZ7w9te_Z_aCTKOGN1BaI/https/i.imgur.com/5KeHUgW.png" alt="Protected embed's fields" />
 
 Ces bloquages permettent ainsi à Discord de s'assurer le monopole sur la création de certaines intégrations spécifiques, par exemple celles comprenant des vidéos:
+
 <Image src="https://cdn.discordapp.com/attachments/497053863707148302/497098013903159316/embed-properties2.png" alt="YouTube embedded in Discord" />
 
 ## La structure d'une intégration
 Une intégration soit formée de beaucoup d'éléments. Il est donc important de comprendre sa structure JSON afin de comprendre à quel élément affiché correspond chaque paire clé-valeur.
+
 <Image src="https://media.discordapp.net/attachments/497053863707148302/497098157839351808/embed-structure.png" alt="Embed Structure" />
 
 Voici une image et sa légende, expliquant ainsi la structure visuelle d'une intégration Discord :
+
 <Image src="https://media.discordapp.net/attachments/497053863707148302/497098326987243535/embed-full-structure.png" alt="Explained Embed Structure" />
 
 <ol>
@@ -110,5 +114,6 @@ Si tu as ton code couleur en hexadécimal, je te conseille d'utiliser `parseInt`
 ```
 
 Tu peux également utiliser [Blargbot](https://blargbot.xyz) et [son système de sous-tag](https://blargbot.xyz/tags#base) afin de transformer votre nombre dans la base de votre choix :
+
 <Image src="/img/base-math.png" alt="Blargbot's {base} subtag" />
 :::

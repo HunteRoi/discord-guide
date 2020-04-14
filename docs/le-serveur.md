@@ -18,8 +18,11 @@ Une fois un serveur rejoint, la vraie aventure commence. En effet, plein de nouv
 Quand tu arrives sur un nouveau serveur, tu es bien souvent perdu. C'est normal, tout le monde n'a pas la même manière de structurer son serveur. Pas de soucis, on va rapidement faire le tour!
 
 Voici ce que tu vois sur **IESN - IG** quand tu n'as pas de rôle spécial :
+
 <Image src='/img/channels-no_role.png' alt='Channels seen with no role'/>
+
 Les canaux les plus importants sont les suivants :
+
 <RocketList>
   <li>
     <strong>📜informations</strong> : contient le règlement et les informations générales du serveur
@@ -38,6 +41,7 @@ Les canaux les plus importants sont les suivants :
 ## L'étudiant et le prof
 ### La partie commune
 Que tu sois un prof ou un étudiant, tu verras la catégorie "Common Profs-Étudiants". Le contenu reste sensiblement le même, à 2 exceptions près! Les canaux suivants ne sont visibles que par les étudiants :
+
 <RocketList>
   <li><strong>📝réclamations_délégués</strong> : un canal informatique qui met à disposition un formulaire de plaintes à destination des délégués</li>
   <li><strong>💬common-étudiants</strong> : un canal où les étudiants (tous blocs confondus) peuvent échanger librement</li>
@@ -51,9 +55,11 @@ Voici ce qu'il s'affiche une fois un rôle attribué :
 |<Image src='/img/student.png' alt="La vue d'un étudiant"/>	| <Image src='/img/teacher.png' alt="La vue d'un prof"/>  |
 
 Et voilà à quoi ressemble une catégorie associée à un *bloc étudiant*. 
+
 <Image src='/img/bloc.png' alt='Un bloc étudiant'/>
 
 Tous les blocs sont basés sur un même modèle :
+
 <RocketList>
   <li>
     <strong>💬discussion-bX</strong> : un canal écrit accessible uniquement par les étudiants
@@ -73,5 +79,6 @@ Tous les autres canaux sont donc uniques à chaque bloc (tu ne trouveras pas deu
 
 :::note
 Les étudiants d'un bloc n'ont accès qu'aux canaux de leur bloc alors que les professeurs voient directement tous les blocs et ont accès à tous les canaux de cours de ceux-ci! Voici ce que voit un prof en ouvrant la catégorie "Bloc 1" :
+
 <Image src='/img/bloc-prof.png' alt="Vue d'un bloc par un prof" />
 :::

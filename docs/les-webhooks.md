@@ -15,7 +15,7 @@ Je vais pas m'embêter à t'expliquer tout sur le webhook, Discord a très bien 
 Un webhook, c'est comme un tube pneumatique pour faire passer des messages d'un endroit à l'autre. Le premier endroit, ce serait l'**application que tu utilises** pour _envoyer_ le webhook. L'endroit de destination, c'est un **canal écrit Discord**. Le message, bah c'est le **contenu du webhook** (un message texte, [une intégration](les-embeds), ...). Et le tube pneumatique, c'est l'**API de Discord**!
 
 <div style={{ width: "100%", height: "0", paddingBottom: "43%", position: "relative" }}>
-  <iframe src="https://giphy.com/embed/2qhGWUYtiRKms" width="100%" height="100%" style={{ position: "absolute" }} frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  <iframe src="https://giphy.com/embed/dblqyJOl4N4R2" width="100%" height="100%" style={{ position: "absolute" }} frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
 Pour utiliser un webhook, tu as besoin de deux choses : 

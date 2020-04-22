@@ -46,6 +46,7 @@ function Layout(props) {
         <html lang='en' />
 
         <link href='/img/apple-touch-icon.jpg' rel='apple-touch-icon' />
+        <meta name='theme-color' content='#2e86ab' />
 
         <meta httpEquiv='x-ua-compatible' content='ie=edge' />
         {metaTitle && <title>{metaTitle}</title>}

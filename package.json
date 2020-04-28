@@ -9,8 +9,8 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.50",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.48",
+    "@docusaurus/core": "^2.0.0-alpha.54",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.54",
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.39",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
@@ -29,6 +29,6 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   }
 }
